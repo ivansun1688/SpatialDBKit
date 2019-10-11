@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.dependency "spatialite"
   s.dependency "FMDB/common"
   s.dependency "sqlite3/rtree"
-  s.dependency = "ShapeKit", :git => "https://github.com/ivansun1688/ShapeKit.git"
+  s.dependency = "ivansun1688/ShapeKit"
   s.requires_arc = true
 
   s.source_files = "SpatialDBKit/*.{h,m}"
