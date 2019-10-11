@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author	= { "Andrea Cremaschi" => "andreacremaschi@libero.it" }
   s.source  = { :git => "https://github.com/andreacremaschi/SpatialDBKit.git", :tag => "0.1.1"}
 
-  s.platform = :ios, "5.0"
+  s.platform = :ios, "10.0"
 
   s.dependency "spatialite"
   s.dependency "FMDB/common"
